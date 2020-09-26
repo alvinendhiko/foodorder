@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pesanemail"
+        android:drawableLeft="@drawable/icons8_email_open_64"
+        android:text="Pesan Melalui Email"
+        android:background="@android:color/holo_blue_light"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginTop="13dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pesantelfon"
+        android:drawableLeft="@drawable/icons8_telephone_64"
+        android:text="Pesan Melalui Telepon"
+        android:background="@android:color/holo_green_light"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginTop="13dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"/>
+
+</LinearLayout>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HasilPemesanan"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hasil Pemesanan"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        />
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginLeft="15dp"
+    android:layout_marginTop="15dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Pemesan :"
+        android:textSize="20sp"
+        android:textColor="@android:color/background_dark"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pemesan"
+        android:textSize="20sp"
+        android:textColor="@android:color/background_dark"
+        android:id="@+id/pemesan"/>
+
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alamat Pemesan :"
+            android:textSize="20sp"
+            android:textColor="@android:color/background_dark"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alamat"
+            android:textSize="20sp"
+            android:textColor="@android:color/background_dark"
+            android:id="@+id/alamatpemesan"/>
+
+
+    </LinearLayout>
+   <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pemesanan Ayam Goreng"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ayam Goreng Original :"
+            android:textSize="20sp"
+            android:textColor="@android:color/background_dark"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rp.20.000"
+            android:textSize="20sp"
+            android:textColor="@android:color/background_dark"
+            android:id="@+id/hargaayamgoreng"/>
+
+
+
+    </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tambahan"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sambal Ijo : "
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3000"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp"
+                android:id="@+id/hargasambalijo"/>
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sambal Merah : "
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3000"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            android:id="@+id/hargasambalmerah"/>
+    </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Harga"
+            android:textSize="30sp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total Pembayaran : "
+                android:textSize="20sp"
+                android:textColor="@android:color/background_dark"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rp.77.000"
+                android:textColor="@android:color/background_dark"
+                android:textSize="20sp"
+                android:id="@+id/totalharga"/>
+        </LinearLayout>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="15dp"
+                android:text="Pesanan sudah benar"
+                android:textSize="20sp"
+                android:textColor="@android:color/background_dark"
+                android:id="@+id/checkbox"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kirim"
+                android:backgroundTint="#4CAF50"
+                android:id="@+id/kirimpesan"
+                android:onClick="Kirim"/>
+
+
+</LinearLayout>
